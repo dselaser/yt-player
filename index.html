@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<meta name="theme-color" content="#000000">
+<title>YT Player</title>
+
+<!-- iOS PWA (홈 화면에 추가) -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="YT Player">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="manifest" href="manifest.json">
+
+<style>
+  :root {
+    --bg: #0b0b0c;
+    --panel: #161618;
+    --panel2: #1f1f22;
+    --line: #2a2a2e;
+    --text: #f2f2f3;
+    --muted: #9a9aa0;
+    --accent: #ff3b30;
+    --safe-t: env(safe-area-inset-top, 0px);
+    --safe-b: env(safe-area-inset-bottom, 0px);
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body {
+    margin: 0; padding: 0; height: 100%;
+    background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", Roboto, sans-serif;
+    overscroll-behavior-y: none;
+  }
+  body { display: flex; flex-direction: column; height: 100dvh; }
+
+  header {
+    padding: calc(8px + var(--safe-t)) 12px 8px;
+    background: #000;
+    flex: 0 0 auto;
+  }
+  .titlebar { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .titlebar .logo {
+    width: 26px; height: 18px; background: var(--accent);
+    border-radius: 5px; position: relative; flex: 0 0 auto;
+  }
+  .titlebar .logo::after {
+    content: ""; position: absolute; left: 9px; top: 4px;
+    border-left: 8px solid #fff; border-top: 5px solid transparent; border-bottom: 5px solid transparent;
+  }
+  .titlebar h1 { font-size: 16px; font-weight: 600; margin: 0; flex: 1; }
+  .titlebar .count { font-size: 12px; color: var(--muted); }
+
+  /* 카테고리 칩 */
+  .cats { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
+  .cats::-webkit-scrollbar { display: none; }
+  .chip {
+    flex: 0 0 auto; padding: 7px 14px; border-radius: 999px;
+    background: var(--panel2); color: var(--text); border: 1px solid var(--line);
+    font-size: 14px; cursor: pointer; white-space: nowrap; user-select: none;
+  }
+  .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+
+  /* 플레이어 */
+  #playerWrap {
+    flex: 0 0 auto; background: #000; width: 100%;
+    aspect-ratio: 16 / 9; position: relative;
+  }
+  #player { width: 100%; height: 100%; }
+  #nowPlaying {
+    font-size: 13px; color: var(--muted); padding: 8px 12px;
+    background: #000; flex: 0 0 auto; white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis;
+  }
+  #nowPlaying b { color: var(--text); font-weight: 600; }
+
+  /* 영상 리스트 */
+  main { flex: 1 1 auto; overflow-y: auto; -webkit-overflow-scrolling: touch;
+         padding: 4px 0 calc(12px + var(--safe-b)); }
+  .item {
+    display: flex; gap: 10px; align-items: center;
+    padding: 9px 12px; border-bottom: 1px solid var(--line); cursor: pointer;
+  }
+  .item:active { background: var(--panel); }
+  .item.playing { background: var(--panel2); }
+  .item .thumb {
+    width: 92px; height: 52px; flex: 0 0 auto; border-radius: 6px;
+    background: #000 center/cover no-repeat; position: relative;
+  }
+  .item.playing .thumb::after {
+    content: "▶"; position: absolute; inset: 0; display: grid; place-items: center;
+    color: var(--accent); font-size: 18px; background: rgba(0,0,0,.35); border-radius: 6px;
+  }
+  .item .meta { flex: 1; min-width: 0; }
+  .item .t {
+    font-size: 14px; line-height: 1.3; display: -webkit-box;
+    -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .item .sub { font-size: 11px; color: var(--muted); margin-top: 3px; }
+  .item.playing .t { color: var(--accent); }
+
+  .toolbar { display: flex; gap: 8px; padding: 8px 12px; background: #000; flex: 0 0 auto;
+             border-top: 1px solid var(--line); }
+  .toolbar button {
+    flex: 1; padding: 9px; border-radius: 8px; border: 1px solid var(--line);
+    background: var(--panel2); color: var(--text); font-size: 13px; cursor: pointer;
+  }
+  .toolbar button:active { background: var(--panel); }
+  .toolbar button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="titlebar">
+    <div class="logo"></div>
+    <h1>YT Player</h1>
+    <span class="count" id="count"></span>
+  </div>
+  <div class="cats" id="cats"></div>
+</header>
+
+<div id="playerWrap"><div id="player"></div></div>
+<div id="nowPlaying">탭하여 재생하세요</div>
+
+<div class="toolbar">
+  <button id="btnPrev">⏮ 이전</button>
+  <button id="btnAuto" class="on">↻ 자동재생 ON</button>
+  <button id="btnNext">다음 ⏭</button>
+</div>
+
+<main id="list"></main>
+
+<script>
+const LS_POS = "ytp_positions";   // { videoId: seconds }
+const LS_STATE = "ytp_state";     // { category, videoId }
+
+let DATA = null;
+let player = null;
+let apiReady = false;
+let curCat = null;
+let curVid = null;
+let autoplay = true;
+let savedTimer = null;
+
+// ---- 위치 저장(로컬) : playlist.json의 video_positions(ms)를 초기 seed로 ----
+function loadPositions() {
+  let pos = {};
+  try { pos = JSON.parse(localStorage.getItem(LS_POS)) || {}; } catch (e) {}
+  return pos;
+}
+function savePosition(vid, sec) {
+  if (!vid) return;
+  const pos = loadPositions();
+  pos[vid] = Math.floor(sec);
+  localStorage.setItem(LS_POS, JSON.stringify(pos));
+}
+function getResume(vid) {
+  const pos = loadPositions();
+  if (pos[vid] != null) return pos[vid];
+  // seed: playlist.json은 밀리초 단위로 저장돼 있음
+  const seed = DATA && DATA.video_positions && DATA.video_positions[vid];
+  return seed != null ? Math.floor(seed / 1000) : 0;
+}
+
+// ---- YouTube IFrame API ----
+function loadYTApi() {
+  const tag = document.createElement("script");
+  tag.src = "https://www.youtube.com/iframe_api";
+  document.head.appendChild(tag);
+}
+window.onYouTubeIframeAPIReady = function () {
+  player = new YT.Player("player", {
+    width: "100%", height: "100%",
+    playerVars: {
+      autoplay: 0, controls: 1, rel: 0, modestbranding: 1,
+      playsinline: 1, fs: 1, enablejsapi: 1, origin: location.origin
+    },
+    events: {
+      onReady: () => { apiReady = true; },
+      onStateChange: onState
+    }
+  });
+};
+function onState(e) {
+  // 1 playing, 2 paused, 0 ended
+  if (e.data === YT.PlayerState.PLAYING) startPosSaver();
+  else stopPosSaver();
+  if (e.data === YT.PlayerState.ENDED && autoplay) playNext();
+}
+function startPosSaver() {
+  stopPosSaver();
+  savedTimer = setInterval(() => {
+    if (player && player.getCurrentTime) savePosition(curVid, player.getCurrentTime());
+  }, 5000);
+}
+function stopPosSaver() {
+  if (savedTimer) { clearInterval(savedTimer); savedTimer = null; }
+  if (player && player.getCurrentTime && curVid) savePosition(curVid, player.getCurrentTime());
+}
+
+// ---- 재생 ----
+function playVideo(vid, title) {
+  if (!apiReady) { setTimeout(() => playVideo(vid, title), 300); return; }
+  curVid = vid;
+  const start = getResume(vid);
+  player.loadVideoById({ videoId: vid, startSeconds: start });
+  document.getElementById("nowPlaying").innerHTML =
+    "<b>재생 중:</b> " + (title ? escapeHtml(title) : vid);
+  localStorage.setItem(LS_STATE, JSON.stringify({ category: curCat, videoId: vid }));
+  markPlaying();
+}
+function curList() { return (DATA.videos[curCat] || []); }
+function curIndex() { return curList().findIndex(v => v.video_id === curVid); }
+function playNext() {
+  const l = curList(); if (!l.length) return;
+  let i = curIndex(); i = (i + 1) % l.length;
+  playVideo(l[i].video_id, l[i].title);
+}
+function playPrev() {
+  const l = curList(); if (!l.length) return;
+  let i = curIndex(); i = (i - 1 + l.length) % l.length;
+  playVideo(l[i].video_id, l[i].title);
+}
+
+// ---- 렌더링 ----
+function escapeHtml(s) {
+  return s.replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+}
+function renderCats() {
+  const el = document.getElementById("cats");
+  el.innerHTML = "";
+  DATA.categories.forEach(cat => {
+    const c = document.createElement("div");
+    c.className = "chip" + (cat === curCat ? " active" : "");
+    c.textContent = cat;
+    c.onclick = () => { curCat = cat; renderCats(); renderList(); };
+    el.appendChild(c);
+  });
+}
+function renderList() {
+  const el = document.getElementById("list");
+  const l = curList();
+  el.innerHTML = "";
+  document.getElementById("count").textContent = l.length + "개";
+  l.forEach((v, i) => {
+    const it = document.createElement("div");
+    it.className = "item" + (v.video_id === curVid ? " playing" : "");
+    it.dataset.vid = v.video_id;
+    const thumb = "https://i.ytimg.com/vi/" + v.video_id + "/mqdefault.jpg";
+    it.innerHTML =
+      '<div class="thumb" style="background-image:url(' + thumb + ')"></div>' +
+      '<div class="meta"><div class="t">' + escapeHtml(v.title) + '</div>' +
+      '<div class="sub">' + (i + 1) + " / " + l.length + "</div></div>";
+    it.onclick = () => playVideo(v.video_id, v.title);
+    el.appendChild(it);
+  });
+}
+function markPlaying() {
+  document.querySelectorAll(".item").forEach(it => {
+    it.classList.toggle("playing", it.dataset.vid === curVid);
+  });
+}
+
+// ---- 버튼 ----
+document.getElementById("btnPrev").onclick = playPrev;
+document.getElementById("btnNext").onclick = playNext;
+document.getElementById("btnAuto").onclick = (e) => {
+  autoplay = !autoplay;
+  e.target.classList.toggle("on", autoplay);
+  e.target.textContent = autoplay ? "↻ 자동재생 ON" : "↻ 자동재생 OFF";
+};
+
+// ---- 시작 ----
+async function init() {
+  const res = await fetch("playlist.json?_=" + Date.now());
+  DATA = await res.json();
+  let saved = {};
+  try { saved = JSON.parse(localStorage.getItem(LS_STATE)) || {}; } catch (e) {}
+  curCat = (saved.category && DATA.categories.includes(saved.category))
+    ? saved.category : (DATA.last_category || DATA.categories[0]);
+  renderCats();
+  renderList();
+  loadYTApi();
+}
+init();
+
+// 앱 종료 시 위치 저장
+window.addEventListener("pagehide", stopPosSaver);
+window.addEventListener("visibilitychange", () => { if (document.hidden) stopPosSaver(); });
+
+// 서비스워커 등록 (홈 화면 앱 + 오프라인 셸)
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+}
+</script>
+</body>
+</html>
