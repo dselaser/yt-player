@@ -4,7 +4,19 @@
     "운동",
     "요트",
     "영어",
-    "ESP32"
+    "ESP32",
+    "AI",
+    "제어",
+    "Claude",
+    "Robot",
+    "DWIN",
+    "철학",
+    "수학",
+    "핵융합",
+    "레이저",
+    "KiCAD",
+    "회사",
+    "여행"
   ],
   "videos": {
     "My favor": [
@@ -117,6 +129,14 @@
       {
         "title": "턱걸이 0개부터 20개까지 늘리는 꿀팁!｜40대 몸짱체육쌤 (백도씨니어 5화)",
         "video_id": "3QD21wsx6_E"
+      },
+      {
+        "title": "60세 이후 절대 스쿼트만 믿지 마세요 – 무릎 안 망가뜨리고 다리 강해지는 운동 3가지",
+        "video_id": "cEbUChr5_Fo"
+      },
+      {
+        "title": "이거 알면 병원 망해요..탈모 병원 의사들도 매일 4분씩 하는 기적의 탈모 두피 마사지! | 카이스트 탈모 박사의  림프 순환 머리빠짐 해결법",
+        "video_id": "gyegymN3okc"
       }
     ],
     "요트": [
@@ -139,6 +159,50 @@
       {
         "title": "세계여행 #23 🇬🇷 [ENG SUB] 요트로 세계여행중인 여섯식구의 집 LEEGEND호를 소개합니다ㅣ바람으로 가는집 리전드호ㅣWorld Sailing Vlog",
         "video_id": "fsM96K-v0Ac"
+      },
+      {
+        "title": "We Crossed the Pacific Ocean (as a 18 and 20 year old engaged couple)",
+        "video_id": "4YBho6FeV_8"
+      },
+      {
+        "title": "Surveyors Now REFUSE to Inspect These 4 Catamarans. Here's Why",
+        "video_id": "3SNW06XtBM8"
+      },
+      {
+        "title": "요트살이 준비를 위한 대장정을 시작합니다",
+        "video_id": "Junt4DZKWqA"
+      },
+      {
+        "title": "Catamaran vs Monohull for Crossing an Ocean - The Real Answer",
+        "video_id": "C8wcxlKUbjg"
+      },
+      {
+        "title": "Where Do Unsold Catamarans Actually End Up? The Secret Places Where Catamarans Go to Die",
+        "video_id": "e0GWwxsRhe4"
+      },
+      {
+        "title": "Why Boat Owners Will Pay You $1,000 To Take Their Boat",
+        "video_id": "C35lklpbaeY"
+      },
+      {
+        "title": "How Catamaran Prices Are Actually Set (And Why They Make No Sense)",
+        "video_id": "yeuc-CCdo9g"
+      },
+      {
+        "title": "I Analyzed 1,000 Catamaran Listings. Here's What 90% of Buyers Miss.",
+        "video_id": "itdJ73PNzQY"
+      },
+      {
+        "title": "7 Reasons Why European Catamarans Are Suddenly DIRT CHEAP",
+        "video_id": "l5mYyop3tWs"
+      },
+      {
+        "title": "SEAWIND 1600 CATAMARAN 3 Yr Review - Joy or Regret?",
+        "video_id": "3AzT9w2g2s8"
+      },
+      {
+        "title": "Top 5 Affordable Cruising Catamarans | Price & Features",
+        "video_id": "i43s0ZAa9LI"
       }
     ],
     "영어": [
@@ -165,6 +229,46 @@
       {
         "title": "How MRI Works - Part 1 - NMR Basics",
         "video_id": "TQegSF4ZiIQ"
+      },
+      {
+        "title": "6년 걸릴 공부를 3일로 끝내는 법 — OpenAI 연구원이 인터뷰에서 직접 밝혔습니다",
+        "video_id": "Kf1dYpnH-N4"
+      },
+      {
+        "title": "[한글자막] 소프트웨어 엔지니어링, 변곡점에 서 있습니다",
+        "video_id": "lVmX2MhSvJA"
+      },
+      {
+        "title": "진짜 꼭 알아야 하는 #영어회화 필수 표현",
+        "video_id": "zZdYeDlQO8E"
+      },
+      {
+        "title": "이러니 안 들리지.. 😅 | 영어축약발음",
+        "video_id": "Z6VDb7biKCw"
+      },
+      {
+        "title": "영어 쉐도잉, 틀어놓기만 해도 반은 성공입니다. | 미드/영화 최다 출현 문장 900장면",
+        "video_id": "7AcOC56_HOc"
+      },
+      {
+        "title": "듣고 있으면 귀가 뚫리는 영국영어 팟캐스트 Trend Talk 통합본 | 달리아&스테파니 쌤",
+        "video_id": "Zs6sqKmk9z8"
+      },
+      {
+        "title": "이 대화가 들린다면, 당신은 영어 듣기 중급 레벨입니다.",
+        "video_id": "QcYFe-uWHdY"
+      },
+      {
+        "title": "프렌즈 리스닝 S3E10 | 레이첼, 직장 그만두다 | 파트2",
+        "video_id": "uU_4lMfEbwc"
+      },
+      {
+        "title": "이 영어표현 120개는 그.냥. 통.째.로. 암기해야 돼요",
+        "video_id": "Zs9VASXtp3w"
+      },
+      {
+        "title": "영어를 시작한다면 이 영상부터 보세요.ㅣPDF 무료 다운ㅣ미드보다 실용적인 스누피 쉐도잉 100문장",
+        "video_id": "MtJTBq7zbGE"
       }
     ],
     "ESP32": [
@@ -179,10 +283,270 @@
       {
         "title": "DIY Real AI Voice Assistant with ESP32 🤯 ChatGPT Style! 🔥 Xiaozhi AI ChatBot | Full Setup + BIN File",
         "video_id": "iBd1iwbPmwM"
+      },
+      {
+        "title": "【Tutorial】ESP32 AI Voice Assistant V2: Hands-free Talking & Custom Personality (Fully Arduino)",
+        "video_id": "bXd6o99LcDA"
+      },
+      {
+        "title": "【Tutorial】The simplest  ESP32 AI voice assistant,ChatGPT, fully Arduino, with no need for PC server",
+        "video_id": "m42hGc1V_Jw"
+      },
+      {
+        "title": "【Tutorial step by step】DIY ESP32 AI Voice Assistant: Easiest  way & fully arduino",
+        "video_id": "YNIAP_Bm4xI"
+      },
+      {
+        "title": "How to make Esp32S3 Ai Voice Assistant, ChatBot ( Custom Esp32 Xiaozhi Full tutorial )",
+        "video_id": "hBlcBcnU5mk"
+      },
+      {
+        "title": "I Ran a Local LLM on the ESP32 – Here's What Happened",
+        "video_id": "E6E_KrfyWFQ"
+      },
+      {
+        "title": "[ESP32] 각각 핀의 역할을 알아보자. 정말 중요함!",
+        "video_id": "NlHgNYG8b-8"
+      },
+      {
+        "title": "Control ESP32 and ESP8266 GPIOs from Anywhere in the World",
+        "video_id": "4moPYxNYjCY"
+      },
+      {
+        "title": "Active Disturbance Rejection Control ADRC: A Modern Control Technique for Uncertain Dynamic Systems",
+        "video_id": "N0RG_cTGdjw"
+      },
+      {
+        "title": "Active Disturbance Rejection Cotrol part 2: Error-based ADRC",
+        "video_id": "UcE3z-O9IBc"
+      },
+      {
+        "title": "The PID Killer: Why You Should Switch to ADRC",
+        "video_id": "I_UAkDUTWU0"
+      },
+      {
+        "title": "ADRC  NWD Training",
+        "video_id": "nbGVxT4zT8g"
+      },
+      {
+        "title": "Transfer Functions: Introduction and Implementation",
+        "video_id": "Uh_-RZQIaEs"
+      },
+      {
+        "title": "STM32 필수 회로 설계 1편 - 전원부 & 데이터시트 완벽 분석 | KiCad 계층구조 활용법 [KiCad 중급 03]",
+        "video_id": "ywD_2aunbPU"
+      }
+    ],
+    "AI": [
+      {
+        "title": "무조건 이렇게 저장하세요! AI가 스스로 처리합니다! 옵시디언 + Claude +VS code  — 폴더 3개면 끝납니다 | 오후다섯씨",
+        "video_id": "blnnF9ubEVo"
+      },
+      {
+        "title": "AI시대에 LLM 위키가 꼭 필요한 이유 - 클로드코드 x 옵시디언",
+        "video_id": "9IuIwXAz_84"
+      },
+      {
+        "title": "하네스 엔지니어링 – 단 65줄짜리 문서 하나가 최고의 스킬로 평가받는 이유",
+        "video_id": "4cyQUo2ZIAQ"
+      },
+      {
+        "title": "옵시디언 동기화, 이 영상 하나로 끝!",
+        "video_id": "1-TwNV1IMGc"
+      },
+      {
+        "title": "I Built an AI That Can SEE, HEAR, and CONTROL Hardware  - Using DeepSeek + ElevenLabs on RDK X5",
+        "video_id": "D64EkBnUocE"
+      },
+      {
+        "title": "옵시디언에 클로드 코드 연결하면 이런 일이 가능합니다 | 정보 정리부터 사업 시스템까지 obsidian & claude code",
+        "video_id": "OVilj8E2NnM"
+      },
+      {
+        "title": "Learn Text Embeddings in 20 Minutes (full guide for beginners)",
+        "video_id": "Q6TBHDgWCDQ"
+      },
+      {
+        "title": "Code 시연 기반) 듣고나면 GPT, 제미나이 이해 수준이 달라지는 강의 | 바이브코더 & AX 담당자 필수시청",
+        "video_id": "Z_zR-WanGuQ"
+      },
+      {
+        "title": "Gemma 4 on Raspberry Pi 5: A Surprisingly Usable Local AI Setup",
+        "video_id": "kZhAj8--t8w"
+      },
+      {
+        "title": "클로드 스킬, 서브에이전트, 커맨드 개념 몰랐던 사람 한번에 이해시켜드림",
+        "video_id": "2eqPBLgVH0U"
+      },
+      {
+        "title": "안쓰면 손해! 클로드 쓴다면 당장 '이 기능' 써보세요",
+        "video_id": "57Ppj4NZykE"
+      },
+      {
+        "title": "AI가 코드를 100% 쓰는 시대, 살아남는 90일 안목 훈련법",
+        "video_id": "W8n-PGhYg1s"
+      },
+      {
+        "title": "자고 일어나면 앱이 완성된다? 클로드 코드 루프 파이프라인 실전",
+        "video_id": "xFUgrOIgtNE"
+      }
+    ],
+    "제어": [
+      {
+        "title": "Active Disturbance Rejection Control the intuitive way part 1",
+        "video_id": "DS5VEFD-r_A"
+      },
+      {
+        "title": "Active Disturbance Rejection Cotrol part 2: Error-based ADRC",
+        "video_id": "UcE3z-O9IBc"
+      },
+      {
+        "title": "Active Disturbance Rejection part 3: Tuning",
+        "video_id": "4SE_t6-DnQ4"
+      },
+      {
+        "title": "The PID Killer: Why You Should Switch to ADRC",
+        "video_id": "I_UAkDUTWU0"
+      },
+      {
+        "title": "Active Disturbance Rejection Control ADRC A Proactive Controller",
+        "video_id": "IzL_8UHPIuw"
+      },
+      {
+        "title": "Active Disturbance Rejection Control ADRC: A Modern Control Technique for Uncertain Dynamic Systems",
+        "video_id": "FT-wsv78hbQ"
+      },
+      {
+        "title": "Basics of Disturbance Observers and Disturbance Rejection",
+        "video_id": "8nY-qQUD-sQ"
+      },
+      {
+        "title": "제어) 외란 관측기 원리 및 설계 Simulink 구현 (Disturbance observer) 파트1 주파수 도메인",
+        "video_id": "fEhMCMH7dIM"
+      },
+      {
+        "title": "ESP32 ADC Tutorial: Dual-Channel Sampling, Auto-Ranging & Real-Time Visualization",
+        "video_id": "tULYL656xRg"
+      },
+      {
+        "title": "Engine Sensors - Basics. 3D Animation",
+        "video_id": "a9uP8A94VsQ"
+      },
+      {
+        "title": "ADRC vs PID",
+        "video_id": "gPAzdWR-FbM"
+      }
+    ],
+    "Claude": [
+      {
+        "title": "나만의 ERP 시스템 만들어보기 01편 ━ 프로젝트 설계 및 세팅, JSON 체크리스트, 하네스 Hooks, DESIGN.md, 구글 로그인",
+        "video_id": "NTlT3q7TFls"
+      },
+      {
+        "title": "Clade Code Harness 심화 / 황민호 / 260527",
+        "video_id": "iqoPgoYBVaM"
+      },
+      {
+        "title": "바이브코딩의 근본 문제들을 해결해주는 도구 bkit | AI 인공지능 클로드코드",
+        "video_id": "EZwffHVx05U"
+      },
+      {
+        "title": "스탠포드에서 빅테크로 조용히 퍼지는 개발자 생존법, 대부분 모릅니다 | 미하일 에릭",
+        "video_id": "qEF-eUaTq0Y"
+      },
+      {
+        "title": "12 Claude Code Features Every Engineer Should Know: Subagents, CLAUDE.md, Checkpoints, MCP, and more",
+        "video_id": "E4fzxVMOav4"
+      },
+      {
+        "title": "바이브코딩으로 만들면 망합니다",
+        "video_id": "b6HO73Loi1c"
+      },
+      {
+        "title": "GIT2 - SourceTree 버전관리 - 3. 저장소 생성",
+        "video_id": "YJQz4DG2tTM"
+      }
+    ],
+    "Robot": [
+      {
+        "title": "Physical AI 실전 프로젝트 | Isaac Sim으로 Spot+ATS로 전체 로봇 시스템 직접 구현하기 | 로봇개발자 초고속 성장 로드맵 2·3단계 통합 강의 런칭!",
+        "video_id": "hhppY1C_YYc"
+      },
+      {
+        "title": "How to Make a Robot Walk (No AI, Just Physics)",
+        "video_id": "RXGrTD71FMc"
+      }
+    ],
+    "DWIN": [
+      {
+        "title": "DWIN /DGUS 7.6 Toutch Simple Restaurant Menu Step 2 Change Page ( DWIN HMI Serial Monitor Control )",
+        "video_id": "gVaiOrjLB1k"
+      }
+    ],
+    "철학": [
+      {
+        "title": "위기감 느낀 미국. 200년 된 시스템을 갈어엎을 겁니다 (이병한 교수 2부)",
+        "video_id": "C78jnhGQyqQ"
+      },
+      {
+        "title": "디지털 삼국지 이병한 작가 / STB 세계 주정역과학융합학회 콜로키움",
+        "video_id": "ordo0G919c0"
+      },
+      {
+        "title": "중국은 기회를 스스로 걷어차고 있습니다 | 스탠포드 중국 전문가, 댄 왕",
+        "video_id": "K3zNywHRoio"
+      }
+    ],
+    "수학": [
+      {
+        "title": "Best Explanation of Gradient, Divergence and Curl",
+        "video_id": "m_Psx7CdvDk"
+      },
+      {
+        "title": "전공수학 - 대학수학의 기초/ 미적분 강의 (3시간)",
+        "video_id": "NMvfKKz-fH8"
+      },
+      {
+        "title": "Understanding Calculus (for engineers)",
+        "video_id": "C9oWXIs2g3Y"
+      }
+    ],
+    "핵융합": [
+      {
+        "title": "Understanding Birkeland Currents and Z-pinches",
+        "video_id": "UnqtZphQ2ew"
+      }
+    ],
+    "레이저": [
+      {
+        "title": "Laser Interferometer - Part 5: Wavelength Stabilization of Laser Diodes",
+        "video_id": "t9rJ3EzahMI"
+      }
+    ],
+    "KiCAD": [
+      {
+        "title": "KiCad for Beginners | Step by Step Tutorial to get started | 2025",
+        "video_id": "d9_-lQq8ShE"
+      }
+    ],
+    "회사": [
+      {
+        "title": "\"신입에게 일이 너무 몰려요..\" 고령화된 조직에서 나타나는 현상들! '정년 연장'되면 이렇게 된다고?",
+        "video_id": "e5MgunShYqM"
+      }
+    ],
+    "여행": [
+      {
+        "title": "🛳 배로 단 50분!  너무 아름다워서 왕족의 유배지가 되어야 했던 섬!  이제는 천혜의 비경 트레킹 코스 입니다 | 📸 대중교통 당일치기 국내 여행",
+        "video_id": "h1YwLtTQaqk"
+      },
+      {
+        "title": "🚊 지하철 타고 바다 위를 걷는 섬 트레킹, 외국보다 멋진 환상의 해안 산책로 | 대중교통 당일치기 섬 여행 | Walking Island Trip in Korea",
+        "video_id": "wLdyjxFBNjA"
       }
     ]
   },
-  "last_category": "My favor",
+  "last_category": "여행",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
@@ -204,7 +568,16 @@
     "EgknmfB7Ux4": 173778,
     "sCbzWiJLVhk": 301186,
     "WPaHMGlyfjk": 210581,
-    "iBd1iwbPmwM": 5533
+    "iBd1iwbPmwM": 154166,
+    "bXd6o99LcDA": 122433,
+    "YNIAP_Bm4xI": 148747,
+    "CfIjInYch7U": 16233,
+    "E6E_KrfyWFQ": 13980,
+    "NTlT3q7TFls": 5166,
+    "AUBhTf-wSXE": 12078,
+    "Junt4DZKWqA": 34969,
+    "5f8BogYK4oo": 1412655,
+    "9IuIwXAz_84": 110201
   },
-  "last_volume": 3
+  "last_volume": 21
 }
