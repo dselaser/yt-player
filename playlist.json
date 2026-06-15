@@ -17,7 +17,8 @@
     "KiCAD",
     "회사",
     "여행",
-    "웹개발"
+    "웹개발",
+    "취미"
   ],
   "videos": {
     "My favor": [
@@ -583,9 +584,15 @@
         "title": "바이브코딩 환경 설정 - 서비스 유형 - 주제 - 프론트엔드 - 백엔드 - 데이터베이스 - 서버 - 배포 | 당근 마켓 웹사이트 뚝딱 만드는 장면 포함",
         "video_id": "CcEBaDXgjq0"
       }
+    ],
+    "취미": [
+      {
+        "title": "엔저라도 일본 안 갑니다. 종로에서 찾은 역대급 빈티지 컬렉션",
+        "video_id": "GhfWq35LtaQ"
+      }
     ]
   },
-  "last_category": "웹개발",
+  "last_category": "취미",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
