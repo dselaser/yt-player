@@ -341,6 +341,10 @@
       {
         "title": "STM32 필수 회로 설계 1편 - 전원부 & 데이터시트 완벽 분석 | KiCad 계층구조 활용법 [KiCad 중급 03]",
         "video_id": "ywD_2aunbPU"
+      },
+      {
+        "title": "ESP32 Wi-Fi Provisioning with ESP-IDF: A Practical Beginner's Guide to Onboarding Devices Securely",
+        "video_id": "h5Dv_7zrjHs"
       }
     ],
     "AI": [
@@ -395,6 +399,10 @@
       {
         "title": "자고 일어나면 앱이 완성된다? 클로드 코드 루프 파이프라인 실전",
         "video_id": "xFUgrOIgtNE"
+      },
+      {
+        "title": "Understanding Embedded Bootloaders: The Foundation of Every Embedded System",
+        "video_id": "DsmNEMrRGz4"
       }
     ],
     "제어": [
@@ -501,6 +509,14 @@
       {
         "title": "중국은 기회를 스스로 걷어차고 있습니다 | 스탠포드 중국 전문가, 댄 왕",
         "video_id": "K3zNywHRoio"
+      },
+      {
+        "title": "“진정한 슈퍼히어로는 어머니”…한국계 조니김 하버드 연설",
+        "video_id": "RNP0R2d7KOc"
+      },
+      {
+        "title": "Kf1dYpnH-N4",
+        "video_id": "Kf1dYpnH-N4"
       }
     ],
     "수학": [
@@ -592,8 +608,8 @@
       }
     ]
   },
-  "last_category": "취미",
-  "last_video_id": null,
+  "last_category": "철학",
+  "last_video_id": "RNP0R2d7KOc",
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
     "AIRikU5K1cQ": 9543,
