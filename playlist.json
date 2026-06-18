@@ -357,6 +357,10 @@
       {
         "title": "ESP32 Wi-Fi Provisioning with ESP-IDF: A Practical Beginner's Guide to Onboarding Devices Securely",
         "video_id": "h5Dv_7zrjHs"
+      },
+      {
+        "title": "Mastering LLC and LCC Resonant Converters: A Practical Guide for Modern SMPS Design",
+        "video_id": "vaI9K-zZ68I"
       }
     ],
     "AI": [
@@ -620,7 +624,7 @@
       }
     ]
   },
-  "last_category": "요트",
+  "last_category": "ESP32",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
