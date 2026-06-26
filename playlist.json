@@ -18,7 +18,9 @@
     "회사",
     "여행",
     "웹개발",
-    "취미"
+    "취미",
+    "피부과",
+    "Linux"
   ],
   "videos": {
     "My favor": [
@@ -637,11 +639,31 @@
       {
         "title": "엔저라도 일본 안 갑니다. 종로에서 찾은 역대급 빈티지 컬렉션",
         "video_id": "GhfWq35LtaQ"
+      },
+      {
+        "title": "기타가 어려운 진짜 이유_지판화성학 세미나 시즌2-1부",
+        "video_id": "0wnlNCQEe_I"
+      }
+    ],
+    "피부과": [
+      {
+        "title": "CO2 박리기&약물주입기 | 트리필 프로",
+        "video_id": "SV2-xvfxyjo"
+      }
+    ],
+    "Linux": [
+      {
+        "title": "가장 쉽게 배우는 리눅스! 15분 필살 강좌",
+        "video_id": "tPWBF13JIVk"
+      },
+      {
+        "title": "Alpine Linux Explained for Beginners",
+        "video_id": "sSnlRAdlQvo"
       }
     ]
   },
-  "last_category": "요트",
-  "last_video_id": "C35lklpbaeY",
+  "last_category": "취미",
+  "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
     "AIRikU5K1cQ": 9543,
