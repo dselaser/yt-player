@@ -371,6 +371,10 @@
       {
         "title": "Mastering LLC and LCC Resonant Converters: A Practical Guide for Modern SMPS Design",
         "video_id": "vaI9K-zZ68I"
+      },
+      {
+        "title": "Mastering USB on the ESP32-S3 with ESP-IDF: Part 9 - Understanding HID Devices",
+        "video_id": "1apfC0qFZPY"
       }
     ],
     "AI": [
@@ -662,7 +666,7 @@
       }
     ]
   },
-  "last_category": "취미",
+  "last_category": "ESP32",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
