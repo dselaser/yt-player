@@ -20,7 +20,8 @@
     "웹개발",
     "취미",
     "피부과",
-    "Linux"
+    "Linux",
+    "SMPS"
   ],
   "videos": {
     "My favor": [
@@ -581,14 +582,6 @@
       {
         "title": "Laser Interferometer - Part 5: Wavelength Stabilization of Laser Diodes",
         "video_id": "t9rJ3EzahMI"
-      },
-      {
-        "title": "SMPS 플라이백 컨버터 동작과 회로 이해하기",
-        "video_id": "nAtuuayv7wQ"
-      },
-      {
-        "title": "SMPS 전원장치를 이보다 쉽게 설명할 순 없을 것",
-        "video_id": "9X5TKJWQ_rQ"
       }
     ],
     "KiCAD": [
@@ -680,9 +673,23 @@
         "title": "Alpine Linux Explained for Beginners",
         "video_id": "sSnlRAdlQvo"
       }
+    ],
+    "SMPS": [
+      {
+        "title": "Power Electronics - Resonant Converters - Intro",
+        "video_id": "kpOOv00Y6aU"
+      },
+      {
+        "title": "SMPS 플라이백 컨버터 동작과 회로 이해하기",
+        "video_id": "nAtuuayv7wQ"
+      },
+      {
+        "title": "SMPS 전원장치를 이보다 쉽게 설명할 순 없을 것",
+        "video_id": "9X5TKJWQ_rQ"
+      }
     ]
   },
-  "last_category": "DWIN",
+  "last_category": "레이저",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
