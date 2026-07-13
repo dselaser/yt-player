@@ -302,6 +302,10 @@
       {
         "title": "영어를 시작한다면 이 영상부터 보세요.ㅣPDF 무료 다운ㅣ미드보다 실용적인 스누피 쉐도잉 100문장",
         "video_id": "MtJTBq7zbGE"
+      },
+      {
+        "title": "\"AI 중독은 이미 시작됐다\" 애나 렘키(도파민네이션 저자)가 경고하다 [더 프롬프트] EP.1 / YTN [eng sub]",
+        "video_id": "t1PDvFEcLlM"
       }
     ],
     "ESP32": [
@@ -693,7 +697,7 @@
       }
     ]
   },
-  "last_category": "My favor",
+  "last_category": "영어",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
