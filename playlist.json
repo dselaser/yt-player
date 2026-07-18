@@ -496,6 +496,10 @@
       {
         "title": "1.2 How to design a controller? Poles & Stability | Fundamentals",
         "video_id": "eA950Z9VtM4"
+      },
+      {
+        "title": "Huy Ha - PhD Defense",
+        "video_id": "Zlmdzv4rYzM"
       }
     ],
     "Claude": [
@@ -698,11 +702,15 @@
       {
         "title": "SMPS 전원장치를 이보다 쉽게 설명할 순 없을 것",
         "video_id": "9X5TKJWQ_rQ"
+      },
+      {
+        "title": "Analog Supply without a Ferrite: Proper Isolation Techniques Explained",
+        "video_id": "H4nrotIVuUM"
       }
     ]
   },
-  "last_category": "영어",
-  "last_video_id": "TQegSF4ZiIQ",
+  "last_category": "SMPS",
+  "last_video_id": "H4nrotIVuUM",
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
     "AIRikU5K1cQ": 9543,
