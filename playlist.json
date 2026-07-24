@@ -713,7 +713,16 @@
         "video_id": "H4nrotIVuUM"
       }
     ],
-    "FPGA": []
+    "FPGA": [
+      {
+        "title": "1.2.1 Vivado ML 사용",
+        "video_id": "I_hh7GcvJ10"
+      },
+      {
+        "title": "The best way to start learning Verilog",
+        "video_id": "2IReMT_zjK8"
+      }
+    ]
   },
   "last_category": "FPGA",
   "last_video_id": null,
