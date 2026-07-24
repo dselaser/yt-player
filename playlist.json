@@ -21,7 +21,8 @@
     "취미",
     "피부과",
     "Linux",
-    "SMPS"
+    "SMPS",
+    "FPGA"
   ],
   "videos": {
     "My favor": [
@@ -711,9 +712,10 @@
         "title": "Analog Supply without a Ferrite: Proper Isolation Techniques Explained",
         "video_id": "H4nrotIVuUM"
       }
-    ]
+    ],
+    "FPGA": []
   },
-  "last_category": "취미",
+  "last_category": "FPGA",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
