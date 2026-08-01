@@ -505,6 +505,10 @@
       {
         "title": "Huy Ha - PhD Defense",
         "video_id": "Zlmdzv4rYzM"
+      },
+      {
+        "title": "Reinforcement Learning for Robotics Part 1: Import a Robot CAD Model into MuJoCo | DigiKey",
+        "video_id": "kGish1q_WC8"
       }
     ],
     "Claude": [
@@ -732,7 +736,7 @@
       }
     ]
   },
-  "last_category": "AI",
+  "last_category": "제어",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
