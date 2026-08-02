@@ -451,6 +451,10 @@
       {
         "title": "인공지능 70년 역사 완벽정리 몰아보기 끝판왕 | 이거 하나 보면 책 10권 읽을 시간, 딱 20분으로 아껴 드립니다",
         "video_id": "Wza8S2KkPgw"
+      },
+      {
+        "title": "How This Tiny $8 Chip Runs an LLM With Almost No RAM",
+        "video_id": "0qXVMt3pIjU"
       }
     ],
     "제어": [
@@ -736,7 +740,7 @@
       }
     ]
   },
-  "last_category": "제어",
+  "last_category": "AI",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
