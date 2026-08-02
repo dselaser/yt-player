@@ -389,6 +389,10 @@
       {
         "title": "Mastering USB on the ESP32-S3 with ESP-IDF: Part 9 - Understanding HID Devices",
         "video_id": "1apfC0qFZPY"
+      },
+      {
+        "title": "Before main(): Understanding the Hidden Startup Sequence in Embedded C Systems",
+        "video_id": "c0z5rXpR94M"
       }
     ],
     "AI": [
@@ -748,7 +752,7 @@
       }
     ]
   },
-  "last_category": "AI",
+  "last_category": "ESP32",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
