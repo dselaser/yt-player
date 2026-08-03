@@ -757,10 +757,14 @@
       {
         "title": "Easy Tutorial on FPGA Coding by Using Vivado, Verilog, and Xilinx Boards",
         "video_id": "v4i8pp1eahQ"
+      },
+      {
+        "title": "MorphoHDL: a minimalistic language for growing circuits and graphs",
+        "video_id": "-qhIIAylWGc"
       }
     ]
   },
-  "last_category": "ESP32",
+  "last_category": "FPGA",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
