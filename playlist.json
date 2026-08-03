@@ -475,6 +475,10 @@
       {
         "title": "8분만 주시면, 클로드 코드 1000시간의 꿀팁을 드립니다",
         "video_id": "GsInmND5zD8"
+      },
+      {
+        "title": "Every AI Concept Explained Intuitively!",
+        "video_id": "LlYcDGrnXeY"
       }
     ],
     "제어": [
@@ -764,7 +768,7 @@
       }
     ]
   },
-  "last_category": "FPGA",
+  "last_category": "AI",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
