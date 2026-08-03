@@ -393,6 +393,10 @@
       {
         "title": "Before main(): Understanding the Hidden Startup Sequence in Embedded C Systems",
         "video_id": "c0z5rXpR94M"
+      },
+      {
+        "title": "FreeRTOS On ESP32 Lesson 01: Introduction:",
+        "video_id": "LLp9T3rgea8"
       }
     ],
     "AI": [
