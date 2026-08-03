@@ -635,6 +635,10 @@
       {
         "title": "Laser Interferometer - Part 5: Wavelength Stabilization of Laser Diodes",
         "video_id": "t9rJ3EzahMI"
+      },
+      {
+        "title": "Lidar Technologies 101",
+        "video_id": "3EehCU3csJQ"
       }
     ],
     "KiCAD": [
@@ -768,7 +772,7 @@
       }
     ]
   },
-  "last_category": "AI",
+  "last_category": "레이저",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
