@@ -567,6 +567,10 @@
       {
         "title": "GIT2 - SourceTree 버전관리 - 3. 저장소 생성",
         "video_id": "YJQz4DG2tTM"
+      },
+      {
+        "title": "클로드를 완벽한 세컨드브레인으로 만드는 4단계",
+        "video_id": "EUlgnQq4czk"
       }
     ],
     "Robot": [
@@ -772,7 +776,7 @@
       }
     ]
   },
-  "last_category": "레이저",
+  "last_category": "Claude",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
