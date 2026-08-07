@@ -571,6 +571,10 @@
       {
         "title": "클로드를 완벽한 세컨드브레인으로 만드는 4단계",
         "video_id": "EUlgnQq4czk"
+      },
+      {
+        "title": "클로드 스킬로 PPT 대신 고퀄리티 발표자료 만들기 | 설치, 개념, 사용법 총 정리",
+        "video_id": "ks5Yko9m15E"
       }
     ],
     "Robot": [
@@ -780,7 +784,7 @@
       }
     ]
   },
-  "last_category": "핵융합",
+  "last_category": "Claude",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
