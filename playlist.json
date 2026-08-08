@@ -631,6 +631,10 @@
       {
         "title": "Understanding Calculus (for engineers)",
         "video_id": "C9oWXIs2g3Y"
+      },
+      {
+        "title": "벡터와 행렬의 관계, 한 번에 이해하기",
+        "video_id": "swQk4fgKgls"
       }
     ],
     "핵융합": [
@@ -784,7 +788,7 @@
       }
     ]
   },
-  "last_category": "Claude",
+  "last_category": "수학",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
