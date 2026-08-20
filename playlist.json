@@ -615,6 +615,10 @@
       {
         "title": "DWIN Display Tutorials #1 - Transmitting text between the display and PC or Arduino",
         "video_id": "d_susa-41zM"
+      },
+      {
+        "title": "5 Python GUI Designers You Should Know : Drag & Drop",
+        "video_id": "OY134jpezrQ"
       }
     ],
     "철학": [
@@ -808,8 +812,8 @@
       }
     ]
   },
-  "last_category": "영어",
-  "last_video_id": "Z6VDb7biKCw",
+  "last_category": "DWIN",
+  "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
     "AIRikU5K1cQ": 9543,
