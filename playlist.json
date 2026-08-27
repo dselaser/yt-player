@@ -507,6 +507,10 @@
       {
         "title": "[tmux·cmux 대체] herdr 완벽 가이드 | 태생부터 AI 에이전트를 위한 터미널 멀티플렉서",
         "video_id": "rSHizW6dI3c"
+      },
+      {
+        "title": "[한글더빙] 개발자는 결국 이렇게 살아남습니다 with 인공지능의 스승 앤드류 응",
+        "video_id": "vENN6-d_3AQ"
       }
     ],
     "제어": [
@@ -828,7 +832,7 @@
       }
     ]
   },
-  "last_category": "ESP32",
+  "last_category": "AI",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
