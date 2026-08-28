@@ -511,6 +511,10 @@
       {
         "title": "[tmux·cmux 대체] herdr 완벽 가이드 | 태생부터 AI 에이전트를 위한 터미널 멀티플렉서",
         "video_id": "rSHizW6dI3c"
+      },
+      {
+        "title": "Can AI Really Design an Electronic Circuit Board? | SpeedUp AI",
+        "video_id": "5QSmlWL5l6g"
       }
     ],
     "제어": [
@@ -832,8 +836,8 @@
       }
     ]
   },
-  "last_category": "ESP32",
-  "last_video_id": "I_UAkDUTWU0",
+  "last_category": "AI",
+  "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
     "AIRikU5K1cQ": 9543,
