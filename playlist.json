@@ -421,6 +421,10 @@
       {
         "title": "내 목소리 AI, 제 컴퓨터에 설치했습니다 (무료·무제한·상업이용 OK)",
         "video_id": "UzzTPBvOmaA"
+      },
+      {
+        "title": "[Satisfying] Building a Tiny Pocket AI Assistant",
+        "video_id": "25RGnr407PM"
       }
     ],
     "AI": [
@@ -829,7 +833,7 @@
     ]
   },
   "last_category": "ESP32",
-  "last_video_id": "M24yg6ZM7-I",
+  "last_video_id": "I_UAkDUTWU0",
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
     "AIRikU5K1cQ": 9543,
