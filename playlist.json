@@ -625,6 +625,10 @@
       {
         "title": "How to Make a Robot Walk (No AI, Just Physics)",
         "video_id": "RXGrTD71FMc"
+      },
+      {
+        "title": "Isaac Sim & Isaac Lab: Full Guide to Building & Training Robots",
+        "video_id": "tQziqSx-F80"
       }
     ],
     "DWIN": [
@@ -840,7 +844,7 @@
       }
     ]
   },
-  "last_category": "KiCAD",
+  "last_category": "Robot",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
