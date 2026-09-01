@@ -22,7 +22,8 @@
     "피부과",
     "Linux",
     "SMPS",
-    "FPGA"
+    "FPGA",
+    "RF"
   ],
   "videos": {
     "My favor": [
@@ -866,9 +867,10 @@
         "title": "MorphoHDL: a minimalistic language for growing circuits and graphs",
         "video_id": "-qhIIAylWGc"
       }
-    ]
+    ],
+    "RF": []
   },
-  "last_category": "Robot",
+  "last_category": "RF",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
