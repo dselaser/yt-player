@@ -426,6 +426,10 @@
       {
         "title": "[Satisfying] Building a Tiny Pocket AI Assistant",
         "video_id": "25RGnr407PM"
+      },
+      {
+        "title": "I Ran a 135M Parameter LLM on ESP32-S3! (Offline AI Experiment)",
+        "video_id": "Epmw0wFaKR8"
       }
     ],
     "AI": [
@@ -875,7 +879,7 @@
       }
     ]
   },
-  "last_category": "RF",
+  "last_category": "ESP32",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
