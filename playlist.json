@@ -876,10 +876,14 @@
       {
         "title": "Why Impedance Matching MATTERS in RF Amplifiers: S‑Parameters, Reflections & More",
         "video_id": "tyC_CPMXF3w"
+      },
+      {
+        "title": "(Part 3) How to Design, Build, and Test an RF Linear Amplifier (Input Board)",
+        "video_id": "0mg14eeu2uc"
       }
     ]
   },
-  "last_category": "ESP32",
+  "last_category": "RF",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
