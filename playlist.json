@@ -681,10 +681,6 @@
     ],
     "철학": [
       {
-        "title": "위기감 느낀 미국. 200년 된 시스템을 갈어엎을 겁니다 (이병한 교수 2부)",
-        "video_id": "C78jnhGQyqQ"
-      },
-      {
         "title": "디지털 삼국지 이병한 작가 / STB 세계 주정역과학융합학회 콜로키움",
         "video_id": "ordo0G919c0"
       },
@@ -902,8 +898,8 @@
       }
     ]
   },
-  "last_category": "RF",
-  "last_video_id": null,
+  "last_category": "철학",
+  "last_video_id": "C78jnhGQyqQ",
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
     "AIRikU5K1cQ": 9543,
