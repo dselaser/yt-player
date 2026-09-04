@@ -24,7 +24,8 @@
     "SMPS",
     "FPGA",
     "RF",
-    "Obsidan"
+    "Obsidan",
+    "HIFU"
   ],
   "videos": {
     "My favor": [
@@ -896,10 +897,16 @@
         "title": "\"이거 쓰면 못 돌아가요\" 옵시디안, 단순 메모 앱이 아닌 이유 (Feat. AI, 자동화, 무한 확장)",
         "video_id": "UHXoA4G6GEc"
       }
+    ],
+    "HIFU": [
+      {
+        "title": "Understanding signal to noise ratio and noise spectral density in high speed data converters",
+        "video_id": "mWn8ziRhZE4"
+      }
     ]
   },
-  "last_category": "철학",
-  "last_video_id": "C78jnhGQyqQ",
+  "last_category": "HIFU",
+  "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
     "AIRikU5K1cQ": 9543,
