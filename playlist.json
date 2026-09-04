@@ -522,6 +522,10 @@
       {
         "title": "Can AI Really Design an Electronic Circuit Board? | SpeedUp AI",
         "video_id": "5QSmlWL5l6g"
+      },
+      {
+        "title": "[SWTT] MLflow로 AI 모델 튜닝 결과 한눈에 비교하기(1/4)",
+        "video_id": "JaEwd9Cjtc0"
       }
     ],
     "제어": [
@@ -921,7 +925,7 @@
       }
     ]
   },
-  "last_category": "HIFU",
+  "last_category": "AI",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
