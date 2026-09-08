@@ -748,6 +748,10 @@
       {
         "title": "The #1 KiCad Mistake Beginners Make",
         "video_id": "0xstb9Qrpdk"
+      },
+      {
+        "title": "AI Designed This PCBs in 2 Hours.",
+        "video_id": "AKipJ_rgww0"
       }
     ],
     "회사": [
@@ -925,7 +929,7 @@
       }
     ]
   },
-  "last_category": "AI",
+  "last_category": "KiCAD",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
