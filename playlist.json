@@ -25,7 +25,8 @@
     "FPGA",
     "RF",
     "Obsidan",
-    "HIFU"
+    "HIFU",
+    "GUI"
   ],
   "videos": {
     "My favor": [
@@ -927,9 +928,15 @@
         "title": "#171: IQ Signals Part II: AM and FM phasor diagrams, SSB phasing method",
         "video_id": "5GGD99Qi1PA"
       }
+    ],
+    "GUI": [
+      {
+        "title": "클로드 코드+피그마로 콘텐츠 자동화 공장 만들기- 피그마 플러그인 만들어두고 계속 써먹으세요.",
+        "video_id": "A7VxYQrfG60"
+      }
     ]
   },
-  "last_category": "KiCAD",
+  "last_category": "GUI",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
