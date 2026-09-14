@@ -949,6 +949,10 @@
       {
         "title": "I wanted ESP32 sensor data… So I built an IoT Pipeline!",
         "video_id": "PSGnZwSsnsM"
+      },
+      {
+        "title": "Why Your ESP32 Web Dashboard Needs Async WebServer (Step-by-Step)",
+        "video_id": "oy6SkwlOaqQ"
       }
     ]
   },
