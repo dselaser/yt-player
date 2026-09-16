@@ -965,6 +965,10 @@
       {
         "title": "ESP32 WIFI Tutorial - all feature you need to know",
         "video_id": "Sd33SDwKKPs"
+      },
+      {
+        "title": "ESP32 running ESP-IDF with DHT11 and rain sensors, streaming real-time data to EcoSense Dashboard",
+        "video_id": "osFdOu9Pbdg"
       }
     ]
   },
