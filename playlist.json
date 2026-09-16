@@ -961,11 +961,15 @@
       {
         "title": "ESP8266 Temperture and Humidity Sensor Dashboard | Node-RED",
         "video_id": "sOtbGjPgGug"
+      },
+      {
+        "title": "ESP32 WIFI Tutorial - all feature you need to know",
+        "video_id": "Sd33SDwKKPs"
       }
     ]
   },
   "last_category": "GUI",
-  "last_video_id": null,
+  "last_video_id": "I52AKly-mSE",
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
     "AIRikU5K1cQ": 9543,
