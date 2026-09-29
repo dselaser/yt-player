@@ -26,7 +26,8 @@
     "RF",
     "Obsidan",
     "HIFU",
-    "GUI"
+    "GUI",
+    "제주"
   ],
   "videos": {
     "My favor": [
@@ -974,9 +975,10 @@
         "title": "ESP32 running ESP-IDF with DHT11 and rain sensors, streaming real-time data to EcoSense Dashboard",
         "video_id": "osFdOu9Pbdg"
       }
-    ]
+    ],
+    "제주": []
   },
-  "last_category": "esp32",
+  "last_category": "제주",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
