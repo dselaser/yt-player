@@ -4,7 +4,7 @@
     "운동",
     "요트",
     "영어",
-    "ESP32",
+    "제주",
     "AI",
     "제어",
     "Claude",
@@ -329,7 +329,7 @@
         "video_id": "-CLoSgHiL-0"
       }
     ],
-    "ESP32": [
+    "제주": [
       {
         "title": "I Built an AI Desk Buddy with ESP32 (Xiaozhi + Custom Face UI)",
         "video_id": "aDaSp6zaqWM"
@@ -976,7 +976,7 @@
       }
     ]
   },
-  "last_category": "ESP32",
+  "last_category": "제주",
   "last_video_id": null,
   "video_positions": {
     "eoLzxZIiyU8": 1123149,
